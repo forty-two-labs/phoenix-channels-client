@@ -1,0 +1,28 @@
+{
+  "name": "phoenix-channels-client",
+  "version": "1.0.0",
+  "description": "Phoenix Channels JavaScript client",
+  "main": "index.js",
+  "typescript": {
+    "main": "index.d.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forty-two-labs/phoenix-channels-client.git"
+  },
+  "keywords": [
+    "phoenix",
+    "channels",
+    "javascript",
+    "client"
+  ],
+  "author": "42Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forty-two-labs/phoenix-channels-client/issues"
+  },
+  "homepage": "https://github.com/forty-two-labs/phoenix-channels-client#readme"
+}
