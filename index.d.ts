@@ -4,13 +4,14 @@ export class Push {
 
 export class Channel {
   constructor(topic: string, params: any, socket: Socket);
-  
+
   join(): Push;
+  leave(): Push;
 }
 
 export class Socket {
   constructor(endPoint: string);
-  
-  connect();  
+
+  connect();
   channel(topic: string, params: any): Channel;
 }
