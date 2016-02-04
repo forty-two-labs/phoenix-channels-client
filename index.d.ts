@@ -3,10 +3,15 @@ export class Push {
 }
 
 export class Channel {
+  state: string;
+
   constructor(topic: string, params: any, socket: Socket);
 
   join(): Push;
   leave(): Push;
+  on(eventName: string, callback: (payload: any) => void);
+  onClose(callback: () => void);
+  onError(callback: (reason: string) => void);
 }
 
 export class Socket {
