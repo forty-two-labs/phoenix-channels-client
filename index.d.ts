@@ -4,6 +4,7 @@ export class Push {
 
 export class Channel {
   state: string;
+  joinPush: Push;
 
   constructor(topic: string, params: any, socket: Socket);
 
