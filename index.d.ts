@@ -20,4 +20,7 @@ export class Socket {
 
   connect();
   channel(topic: string, params: any): Channel;
+  onOpen(callback: () => void);
+  onClose(callback: () => void);
+  onError(callback: (reason: string) => void);
 }
