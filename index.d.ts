@@ -11,6 +11,7 @@ export class Channel {
   join(): Push;
   leave(): Push;
   on(eventName: string, callback: (payload: any) => void);
+  off(eventName: string);
   onClose(callback: () => void);
   onError(callback: (reason: string) => void);
 }
