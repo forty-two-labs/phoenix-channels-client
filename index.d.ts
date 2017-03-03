@@ -10,6 +10,7 @@ export class Channel {
 
   join(): Push;
   leave(): Push;
+  rejoin(): void;
   on(eventName: string, callback: (payload: any) => void);
   off(eventName: string);
   onClose(callback: () => void);
